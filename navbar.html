@@ -1,20 +1,22 @@
 <html>
 <head>
 <link href="css/bootstrap.css" rel="stylesheet">
+	<meta charset="UTF-8">
 	<link href="css/nav.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<script type="text/javascript" src="js/nav.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<section class="abc">
 <nav class="navbar " role="navigation" id="navcss">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header" style="border-right:0.1px solid #000;height:70px" >
+  <div class="navbar-header" >
     <img src="images/logo.jpg"/>
   </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <div class="nav navbar-nav  logoname">
-      <span ><a href="#">Inkinded</a></span>
+    <div class="nav navbar-nav logoname">
+      <span ><a href="#" style="margin-left:15px">Inkinded</a></span>
        </div>
     <div class="col-sm-3 col-md-3" style="margin-left:30%">
         <form class="navbar-form" role="search">
@@ -23,13 +25,14 @@
         </div>
         </form>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <span><a href="#"><img src="images/navimg1.jpg"></img></a></span>
-	<span><a href="#"><img src="images/navimg2.jpg"></img></a></span>
-	<span><a href="#"><img src="images/navimg3.jpg"></img></a></span>  
-    </ul>
-  </div><!-- /.navbar-collapse -->
+    <div class="nav navbar-nav navbar-right new" id="new" style="margin-top:25px;margin-right:5%;padding-right:15px">
+      <span><a href="#"><span class="glyphicon glyphicon-bell"></span></a></span>
+	<span><a href="#"> <span class="glyphicon glyphicon-heart-empty"></span></a></span>
+	<span><a href="#"><span class="glyphicon glyphicon-user"></span></img></a></span>  
+    </div>
+  </div>
 </nav>
-<hr>
+</section>
+
 </body>
 </html>
