@@ -1,0 +1,19 @@
+#navcss{
+	margin-left:13%;
+	margin-right:13%;
+}
+.logoname{
+	padding-top:1.6%;
+	font-size:20px;
+}
+.searchdiv{
+	padding-top:5.6%;
+}
+.searchdiv input {
+    background-image: url(search.png);
+    background-color:#FAFAFA;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+
