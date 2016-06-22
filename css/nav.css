@@ -20,7 +20,6 @@
 }
 .navbar-header{
 	margin-top:7px;
-	border-right:0.1px solid #BDC3C7;
 	height:70px;
 }
 .abc{
@@ -28,6 +27,6 @@
 }
 #new span{
 	font-size:25px;
-	margin-right:8px;
+	margin-right:15px;
 }
 
