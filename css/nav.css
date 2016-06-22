@@ -19,7 +19,7 @@
     text-indent: 20px;
 }
 .navbar-header{
-	margin-top:7px;
+	margin-top:10px;
 	height:70px;
 }
 .abc{
@@ -28,5 +28,8 @@
 #new span{
 	font-size:25px;
 	margin-right:15px;
+}
+.glyphicon{
+	color:black;
 }
 
