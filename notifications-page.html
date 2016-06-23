@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> Notifications </title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">	
+	<link href="css/nav.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<script type="text/javascript" src="js/nav.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/notifications-page.css">
+
+</head>
+
+<body>
+
+	<section class="abc">
+		<nav class="navbar " role="navigation" id="navcss">
+		  <div class="navbar-header" >
+		    <img src="images/logo.jpg"/>
+		  </div>
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    <div class="nav navbar-nav logoname">
+		      <span ><a href="#" style="margin-left:15px">Inkinded</a></span>
+		       </div>
+		    <div class="col-sm-3 col-md-3" style="margin-left:25%">
+		        <form class="navbar-form" role="search">
+		        <div class="input-group searchdiv">
+		            <input onchange="hideIcon(this);" type="text" class="form-control" placeholder="Search" name="q">
+		        </div>
+		        </form>
+		    </div>
+		    <div class="nav navbar-nav navbar-right new" id="new" style="margin-top:25px;margin-right:5%;padding-right:15px">
+		      <span><a href="#"><span class="glyphicon glyphicon-bell"></span></a></span>
+			<span><a href="#"> <span class="glyphicon glyphicon-heart-empty"></span></a></span>
+			<span><a href="#"><span class="glyphicon glyphicon-user"></span></img></a></span>  
+		    </div>
+		  </div>
+		</nav>
+	</section>
+
+
+	
+
+	<div id="heading"> Notifications </div>
+
+	
+
+	<div class="notif" id="notif1"> 
+		
+		<span class="notifpic"> <img class="dp" src="images/snape.jpg"> </span>
+		<span class="notiftext"> Severus Snape started following you </span>
+		<span class="notiftime">Today, 05:00 pm </span>
+		<span class="notiftag"> NEW! </span>
+		<span class="notifview"> <a href="#"> View </a> </span>
+
+	</div>
+
+
+	<div class="notif" id="notif2"> 
+	
+		<span class="notifpic"> <img class="dp" src="images/albus.jpg"> </span>
+		<span class="notiftext"> Albus Dumbledore wrote a story </span>
+		<span class="notiftime"> Today, 11:43 am </span>
+		<span class="notiftag"> NEW! </span>
+		<span class="notifview"> <a href="#"> View </a> </span>
+	
+	</div>
+	
+
+	
+</body>
+
+</html>

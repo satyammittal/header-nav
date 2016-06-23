@@ -1,0 +1,109 @@
+body
+{
+	background-color: #f6f5f5;
+}
+
+#header
+{
+	background-color: #ecf0f1;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	height: 10%;
+	width: 100%;
+}
+
+#heading
+{
+	color: #337ab7;
+	background-color: #ecf0f1;
+	font-size: 28px;
+	height: 9.5%;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	padding: 1.1%;
+	left: 0%;
+	top: 12%;
+}
+
+
+
+.notif
+{
+	position: absolute;
+	left: 15%;
+	border-radius: 3%;
+	background-color:white;
+	height: 13%;
+	width: 70%;
+}
+
+.notifpic
+{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+
+.notiftime
+{
+	padding-left : 8%;
+	padding-top: 4%;
+	color: #7f8c8d;
+	position: absolute;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+}
+
+.dp
+{
+	height: 80px;
+	width: 60px;
+
+}
+.notiftext
+{
+	padding-left : 8%;
+	padding-top: 1%;
+	position: absolute;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+}
+
+.notiftag
+{
+	padding-left : 85%;
+	padding-top: 2%;
+	position: absolute;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: red;
+	font-weight: bolder;
+}
+
+.notifview
+{
+	padding-left : 85%;
+	padding-top: 6%;
+	position: absolute;
+	font-size: 18px;
+	color: #2980b9;
+}
+
+.notifview a
+{
+	text-decoration: none;
+}
+
+
+#notif1
+{
+	top: 25%;
+}
+
+#notif2
+{
+	top: 40%;
+}
+
