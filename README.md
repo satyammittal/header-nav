@@ -1,5 +1,5 @@
 # Inkinded
-for linux:
-  From terminal git clone git@github.com:satyammittal/inkinded-project.git
-  cd inkinded-project
+for linux:<br/>
+  From terminal git clone git@github.com:satyammittal/inkinded-project.git<br/>
+  cd inkinded-project<br/>
   firefox index.html
