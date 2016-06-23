@@ -1,0 +1,96 @@
+.list {
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.list h2{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    font-weight: bold;
+}
+.button {
+    
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   cursor: pointer;
+}
+
+.button1 {background-color: #1ABC9C;
+  border-radius: 40px;
+    width: 110px;
+  height: 40px; 
+}
+
+.button2 {
+    background-color: white;
+    color: #1ABC9C; 
+    font-size: 14px;
+}
+.button3 {
+  border-radius: 40px;
+  color: black;
+    width: 110px;
+  height: 40px; 
+}
+
+
+p{
+  color: #7F8C8D;
+}
+hr{
+  color: #1ABC9C;
+}
+
+.body{
+  width:1200px;
+  height:300px;
+  background:#f2f2f2;
+  position:absolute;
+
+}
+
+.person{
+  height:450px;
+  width:1000px;
+  background:white;
+  position:relative;
+  left:-160px;
+  padding-top:20px;
+  padding-right:50px;
+}
+
+.outer-cover{
+  position:relative;
+  width:800px;
+  height:450px;
+  left:300px;
+  top:-3px;
+  bottom:-20px;
+  /*background:white;*/
+  padding-left:50px;
+
+}
+
+.img-circle{
+   border-radius: 50%;
+    background: #1ABC9C;
+    width: 110px;
+    height: 110px;
+    
+  
+}
+.list{
+  height:550px;
+  width:1000px;
+  background:white;
+  position:relative;
+  left:-110px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:20px;
+}
+
